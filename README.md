@@ -28,18 +28,6 @@ An interactive, browser-based productivity dashboard application designed to sea
 3. Double-click or trigger the `index.html` file to run your app statically in your preferred local web browser browser window.
 4. Add items, click the edit buttons, search for words, and check tasks off to view the layout animations.
 
-## 📈 Output & Proof Results
-
-Below are the screen capture proofs showing the application interface states matching all operational requirements:
-
-### Main Empty Workspace Board Look
-
-![Main State Layout](screenshots/output1.png)
-
-### Active Task Items & Split Filtering Logs Preview
-
-![Interactive Tasks Views](screenshots/output2.png)
-
 ## 🚀 Live Demo Deployment
 
 👉 **[https://daily-task-planner-project2.netlify.app/]**
