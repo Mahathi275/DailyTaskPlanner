@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Application App Header Component Title -->
+      <h1>📝 Daily Task Planner</h1>
+      <div id="current-date" class="date-display"></div>
+      <br />
+      <!-- Custom Item Live Text Filter Box Search Field -->
+      <div class="search-box">
+        <input type="text" id="search" placeholder="Search task..." />
+      </div>
+
+      <!-- System Target Core Task Form Processing Inline Grid -->
+      <div class="input-box">
+        <input type="text" id="taskInput" placeholder="Enter a new task" />
+        <button class="add-btn" onclick="addTask()">Add</button>
+      </div>
+
+      <!-- Pending Items Workspace Track -->
+      <h3 class="section-title">📋 Pending Tasks</h3>
+      <ul id="pendingList">
+        <!-- Program elements dynamically written by logic functions -->
+      </ul>
+
+      <!-- Completed Closed State Items Track -->
+      <h3 class="section-title completed-title">✅ Completed Tasks</h3>
+      <ul id="completedList">
+        <!-- Finished logs elements written natively online -->
+      </ul>
+
+      <!-- Aggregated Task Status Analytics Numeric Counter Logs -->
+      <div class="counter">
+        <span id="count">Total: 0 | Pending: 0 | Completed: 0</span>
+      </div>
+    </div>
+
+    <!-- Edit Popup Window Interface Node Module Layer -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h2 id="modalTitle">Edit Task</h2>
+        <input type="text" id="modalInput" placeholder="Enter Task" />
+        <div class="modal-buttons">
+          <button class="save-btn" onclick="saveEdit()">Save</button>
+          <button class="cancel-btn" onclick="closeModal()">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
